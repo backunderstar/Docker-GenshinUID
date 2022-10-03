@@ -67,7 +67,7 @@
 
   * github
 
-    `git clone --depth=1 https://github.com/backunderstar/GenshinUID.git`
+    `git clone --depth=1 https://github.com/backunderstar/Docker-GenshinUID.git`
 
   * gitee
 

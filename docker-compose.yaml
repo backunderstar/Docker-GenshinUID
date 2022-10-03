@@ -2,7 +2,7 @@ version: "3.0"
 services:
   genshinUID:
     container_name: GenshinUID
-    #build: .
+    #build: ./docker
     image: treasurehighly/genshinuid:latest
     restart: always
     ports:
