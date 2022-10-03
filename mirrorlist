@@ -1,0 +1,6 @@
+##清华
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
+##中科大
+Server = http://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo
+##成都电子科大
+Server = http://mirrors.stuhome.net/archlinuxarm/$arch/$repo
