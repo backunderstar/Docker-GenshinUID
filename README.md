@@ -61,7 +61,7 @@
 
   * ubuntu
 
-​            `sudo apt install git -y`
+  ​     `sudo apt install git -y`
 
 * 拉取资源工作目录
 
@@ -75,7 +75,7 @@
 
 #### 4、配置管理员
 
-* 通过vim（或vi），或者xftp软件等编辑env.prod文件进行基本配置
+* 通过vim（或vi），或者xftp软件文件操作等编辑env.prod文件进行基本配置
 
   ```yaml
   HOST=0.0.0.0 #IP-----主要对管理员帐号进行配置，其他随意。
@@ -100,7 +100,7 @@
   docker-compose logs -f --tail=100
   ```
 
-* 等到成功启动后，通过网页配置机器人账号密码登录设备验证等，网址：
+* 等到成功启动后，通过网页配置机器人账号密码登录设备验证等（确认防火墙、安全组开放端口），网址：
 
   ```markdown
   http://你的公网ip地址:端口号/go-cqhttp/
