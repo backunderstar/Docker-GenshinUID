@@ -12,10 +12,10 @@ services:
       - ./ID_DATA.db:/app/Nonebot2/ID_DATA.db #数据库文件
       - ./accounts:/app/Nonebot2/accounts #插件、账号
       - ./data:/app/Nonebot2/data
-    deploy:
-      resources:
-        limits:
-          #cpus: '0.50'
-          memory: 1200M
+#    deploy:     #如需对容器内存占用进行限制，请删除#自行控制（CPU部分可不限制，主要还是内存问题）
+#      resources:
+#        limits:
+#          #cpus: '0.50'
+#          memory: 1200M
     environment:
       - TZ=Asia/Shanghai
