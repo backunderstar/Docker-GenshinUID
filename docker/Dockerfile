@@ -26,7 +26,5 @@ RUN pacman -Syu --noconfirm \
     && rm -rf /var/cache/* \
     rm -rf /tmp/* 
 
-WORKDIR /app/Nonebot2
-
 ENTRYPOINT ["./entrypoint.sh"]
 
