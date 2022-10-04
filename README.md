@@ -1,6 +1,6 @@
 # Docker-GenshinUID
 
-## 一、部署流程
+## 一、部署流程(仍有bug，暂不可用）
 
 #### 1、安装docker
 
