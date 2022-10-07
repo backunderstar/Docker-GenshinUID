@@ -32,7 +32,6 @@ RUN echo -e "deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contri
     && chmod +x /app/Nonebot2/admin.sh \
     && echo "export PATH=$PATH:/root/ffmpeg">>~/.bashrc \
     && source ~/.bashrc \
-    && apt-get remove ffmpeg -y \
     && apt-get clean \
     && rm -rf /app/somefiles \
     && rm -rf /var/lib/apt/list/* \
