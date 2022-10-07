@@ -73,20 +73,8 @@
 
     `git`
 
-#### 4、配置管理员
 
-* 通过vim（或vi），或者xftp软件文件操作等编辑env.prod文件进行基本配置
-
-  ```yaml
-  HOST=0.0.0.0 #IP-----主要对管理员帐号进行配置，其他随意。
-  PORT=8080    #port
-  SUPERUSERS=["123456","7891011"] #master/super_users
-  NICKNAME=["bot","someone"] #bot's name
-  COMMAND_START=["/",""]
-  COMMAND_SEP=["."]
-  ```
-
-#### 5、启动容器并验证
+#### 4、启动容器并验证
 
 * 在GenshinUID目录下后台启动容器  **[等待------]**  ：
 
@@ -105,8 +93,13 @@
   ```markdown
   http://你的公网ip地址:端口号/go-cqhttp/
   ```
+* 配置管理员等：
+  ```shell
+  docker exec -it GenshinUID ./admin.sh
+  ```
+* 所有东西配置完重启一下。
 
-#### 6、指令（需在GenshinUID目录下）
+#### 5、指令（需在Docker-GenshinUID目录下）
 
 * 停止
 
@@ -138,7 +131,7 @@
   docker-compose down
   ```
 
-#### 7、说明
+#### 6、说明
 
 * 本人小白，如有错漏欢迎指正。
 * bot项目戳这里[KimigaiiWuyi/GenshinUID](https://github.com/KimigaiiWuyi/GenshinUID)
