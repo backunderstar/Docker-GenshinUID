@@ -135,7 +135,7 @@
 
 * 本人小白，如有错漏欢迎指正。
 * bot项目戳这里[KimigaiiWuyi/GenshinUID](https://github.com/KimigaiiWuyi/GenshinUID)
-* 新地图有问题（不知道是容器问题还是都这样），未解决，待解决。生成地图不可用。
+* 已有3.0版本前地图，生成地图慎用，现版本并发过高，低配置服务器容易吃满内存卡死。
 * 未使用poetry，利用poetry重启配置不可开启。
 * 利用nb plugin加载插件可以在Dockerfile里加命令重新构建你自己的镜像，也可以直接进入运行的容器进行安装。
 * 学业紧张，不一定有时间，能跑就行。
